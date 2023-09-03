@@ -1,0 +1,95 @@
+.weatherCard {
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 490px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: transform 9s;
+}
+
+
+.weatherCard h1 {
+    display: inline-flex;
+    margin-top: -8px;
+    margin-left: 10px;
+    font-size: 100px;
+}
+
+.weatherCard h1 span {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.weatherCard h2,
+h3 {
+    display: inline-flex;
+    margin-top: -60px;
+}
+
+.country {
+    font-size: 12px;
+}
+
+.country-name {
+    margin-left: -45px;
+}
+
+.humidity {
+    margin-left: 110px;
+
+}
+
+.wind {
+    margin-left: 52px;
+}
+
+.weather {
+    margin-left: 80px;
+}
+
+.weatherCard p {
+    display: flex;
+}
+
+
+
+.things {
+    /* background-color: aqua; */
+    width: 483px;
+    margin-top: -40px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .weatherCard {
+        width: 339px;
+    }
+    .things{
+        width: 324px;
+    }
+    .humidity, .wind, .weather{
+        margin-left: 45px;
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .weatherCard {
+        width: 280px;
+        /* margin-left: 40px; */
+    }
+    .things{
+        width: 275px;
+    }
+    .humidity, .wind, .weather{
+        margin-left: 30px;
+        /* font-size: 18px; */
+    }
+}

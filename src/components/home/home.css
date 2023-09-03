@@ -1,0 +1,97 @@
+body {
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+.inputBox {
+    padding: 15px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.inputBox label {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.inputBox .input {
+    margin-left: 40px;
+    width: 350px;
+    padding: 15px;
+    background-color: white;
+}
+
+.inputBox button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 35px;
+    margin-left: 165px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-left: 95px;
+    margin-top: 100px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    background-color: red;
+    color: white;
+    width: 239px;
+    padding: 49px;
+    box-shadow: rgb(255, 0, 0) 0px 30px 90px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .inputBox {
+        width: 340px;
+    }
+
+    .inputBox .input {
+        width: 237px;
+        margin-left: 6px;
+    }
+    .inputBox label{
+        font-size: 16px;
+    }
+
+    .inputBox button{
+        margin-left: 111px;
+    }
+    .no-data{
+        margin-left: 17px;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .inputBox {
+        width: 280px;
+    }
+    .inputBox label{
+        font-size: 16px;
+    }
+    .inputBox input{
+        margin-top: 10px;
+    }
+    .inputBox button{
+        margin-left: 60px;
+    }
+    .no-data{
+        width: 170px;
+    }
+}
