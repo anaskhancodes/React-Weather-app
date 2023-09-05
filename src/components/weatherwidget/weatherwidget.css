@@ -1,6 +1,6 @@
 .weatherCard {
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 40px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 490px;
@@ -9,14 +9,20 @@
     left: 0;
     z-index: 999;
     transition: transform 9s;
+    background-image: linear-gradient(rgb(9, 47, 105),rgb(71, 118, 187),rgb(135, 164, 207));
 }
 
 
 .weatherCard h1 {
     display: inline-flex;
-    margin-top: -8px;
+    margin-top: -35px;
     margin-left: 10px;
     font-size: 100px;
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
 }
 
 .weatherCard h1 span {
@@ -28,6 +34,7 @@
 h3 {
     display: inline-flex;
     margin-top: -60px;
+    color: white;
 }
 
 .country {
@@ -35,20 +42,22 @@ h3 {
 }
 
 .country-name {
-    margin-left: -45px;
+    margin-left: 16px;
+    margin-top: 64px;
 }
 
 .humidity {
     margin-left: 110px;
-
+    display: flex;
+    align-items: center;
 }
 
 .wind {
-    margin-left: 52px;
+    margin-left: 80px;
 }
 
-.weather {
-    margin-left: 80px;
+.weather-name{
+    color: rgb(255, 255, 255);
 }
 
 .weatherCard p {
@@ -60,7 +69,7 @@ h3 {
 .things {
     /* background-color: aqua; */
     width: 483px;
-    margin-top: -40px;
+    margin-top: 1px;
 }
 
 

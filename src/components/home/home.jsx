@@ -59,7 +59,7 @@ const Home = () => {
                 })
 
             ) : (
-                <div className='no-data'>No Data</div>
+                <div className='no-data'></div>
             )}
 
 

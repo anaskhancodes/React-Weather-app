@@ -4,10 +4,13 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    /* background-image:radial-gradient(rgba(97, 0, 97, 0.733),rgb(161, 2, 161),rgb(201, 0, 201)); */
+    background-color: rgb(137, 193, 240);
 }
 
 
 .inputBox {
+    background-image: linear-gradient(rgba(24, 93, 121, 0.527),rgba(59, 193, 255, 0.603));
     padding: 15px;
     /* border: 1px solid black; */
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -16,6 +19,8 @@ body {
 .inputBox label {
     margin-left: 5px;
     font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .inputBox .input {
@@ -23,6 +28,7 @@ body {
     width: 350px;
     padding: 15px;
     background-color: white;
+    border:2px solid rgb(82, 145, 156);
 }
 
 .inputBox button {
@@ -37,23 +43,27 @@ body {
     font-size: 15px;
     font-weight: 600;
     padding: 20px;
+    background-color: rgb(12, 36, 56);
+    color: white;
+    border: none;
+    /* box-shadow: 1px 1px 1px 2px black; */
 }
 
 
-.no-data {
+/*.no-data {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: xx-large;
     margin-left: 95px;
     margin-top: 100px;
-    /* border: 1px solid rgb(255, 0, 0); */
+     border: 1px solid rgb(255, 0, 0); 
     background-color: red;
     color: white;
     width: 239px;
     padding: 49px;
     box-shadow: rgb(255, 0, 0) 0px 30px 90px;
-}
+} */
 
 
 @media screen and (max-width: 600px) {
@@ -72,9 +82,9 @@ body {
     .inputBox button{
         margin-left: 111px;
     }
-    .no-data{
+    /* .no-data{
         margin-left: 17px;
-    }
+    } */
     
 }
 
@@ -91,7 +101,7 @@ body {
     .inputBox button{
         margin-left: 60px;
     }
-    .no-data{
+    /* .no-data{
         width: 170px;
-    }
+    } */
 }
