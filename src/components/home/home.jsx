@@ -46,7 +46,7 @@ const Home = () => {
         <div>
             <form className='inputBox' onSubmit={submitHandler}>
                 <label htmlFor="CityNameInput">City Name</label>
-                <input className='input' type="search" name="" id="CityNameInput" required maxLength={20} minLength={5} ref={cityNameRef} />
+                <input className='input' type="search" name="" id="CityNameInput" required maxLength={20} minLength={3} ref={cityNameRef} />
                 <br />
                 <button type="submit">Get Weather</button>
             </form>
